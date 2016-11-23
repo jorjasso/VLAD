@@ -17,6 +17,7 @@ A query (-q queries/0706.3046-img-1-22.jpg) looking for the seven most similar i
 ```python
 python query.py  -q queries/0706.3046-img-1-22.jpg -r 7 -d ORB -dV visualDictionary/visualDictionary16ORB.pickle -i ballTreeIndexes/index_ORB_W16.pickle
 ```
+[//]: # (This may be the most platform independent comment)
 [comment]: <> (Precomputed Descriptors, Visual Dictionaries, ball-tree indexes and VLAD descriptors are within our  [box folder](https://ibm.box.com/s/yr1g795bbf6tjj8et5fadycyhu5hwvj0)
 Replace folders: /ballTreeIndexes, /descriptors, /visualDictionary, /VLADdescriptors with the folders from the box.)
 
