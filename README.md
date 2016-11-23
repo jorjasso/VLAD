@@ -20,7 +20,7 @@ python query.py  -q queries/0706.3046-img-1-22.jpg -r 7 -d ORB -dV visualDiction
 [//]: # (Precomputed Descriptors, Visual Dictionaries, ball-tree indexes and VLAD descriptors are within our  [box folder](https://ibm.box.com/s/yr1g795bbf6tjj8et5fadycyhu5hwvj0))
 [//]: # (Replace folders: /ballTreeIndexes, /descriptors, /visualDictionary, /VLADdescriptors with the folders from the box.)
 
-Remark: Create folders: /ballTreeIndexes, /descriptors, /visualDictionary, /VLADdescriptors 
+
 
 Another examples of queries:
 
@@ -52,6 +52,8 @@ python query.py  -q queries/1506.05863-img-3-21.jpg -r 7 -d ORB -dV visualDictio
 
 ## Computing VLAD features for a new dataset
 Example VLAD with ORB descriptors with a visual dictionary with 2 visual words and an a ball tree as index. (Of course, 2 visual words is not useful, instead,  try 16, 32, 64, or 256 visual words)
+
+Remark: Create folders: /ballTreeIndexes, /descriptors, /visualDictionary, /VLADdescriptors 
 
 1. compute descriptors from a dataset. The supported descriptors are ORB, SIFT and SURF:
 	```python
