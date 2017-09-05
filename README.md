@@ -17,7 +17,7 @@ A query (-q queries/0706.3046-img-1-22.jpg) looking for the seven most similar i
 ```python
 python query.py  -q queries/0706.3046-img-1-22.jpg -r 7 -d ORB -dV visualDictionary/visualDictionary16ORB.pickle -i ballTreeIndexes/index_ORB_W16.pickle
 ```
-[//]: # (You must compute the following first  Descriptors, Visual Dictionaries, ball-tree indexes and VLAD descriptors, see section "Computing VLAD features for a new dataset" below for details )
+[//]: # You must compute the following first  Descriptors, Visual Dictionaries, ball-tree indexes and VLAD descriptors, see section "Computing VLAD features for a new dataset" below for details 
 
 
 Another examples of queries:
