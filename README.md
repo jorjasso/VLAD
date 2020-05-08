@@ -98,11 +98,6 @@ Remark: Create folders: /ballTreeIndexes, /descriptors, /visualDictionary, /VLAD
         python query.py  -q queries/0706.3046-img-1-22.jpg -r 11 -d ORB -dV visualDictionary/visualDictionary2ORB.pickle -i ballTreeIndexes/index_ORB_W2.pickle
         ```
 
-
-## Motivation
-
-This project is part of the pipeline of DOCRetrieval project
-
 ## Installation
 
 First install conda , then:
